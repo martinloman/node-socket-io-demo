@@ -15,7 +15,7 @@ socket.on("clientClicked", (data) => {
 })
 
 const moveBoxTo = (x, y) => {
-  let box = document.getElementById("theBox")
+  let box = document.getElementById("theWizard")
   box.style.top = y + "px"
   box.style.left = x + "px"
 }
