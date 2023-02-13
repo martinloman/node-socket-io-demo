@@ -26,5 +26,9 @@
   </body>
   <!-- Här hämtas socket.io scriptet in som gör att vi kan kommunicera till servern. -->
   <script src="/socket.io/socket.io.js"></script>
+  <!-- 
+    Här läser vi in det script som ska använda socket.io. 
+    Det måste läsas in EFTER att socket.io.js-scriptet ovan har lästs in. 
+   -->
   <script src="app.js"></script>
 </html>
